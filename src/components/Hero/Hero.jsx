@@ -2,6 +2,7 @@ import React from 'react'
 import Grocery from '../../assets/grocery.jpg'
 import Button from '../Button/Button'
 
+
 const Hero = () => {
   return (
 
