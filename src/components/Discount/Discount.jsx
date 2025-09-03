@@ -4,10 +4,10 @@ import FreshCover from '../../assets/grocery-discount.png'
 
 const Discount = () => {
     return (
-        <section className='bg-zinc-200 bg-no-repeat bg-right bg-size-[40%]' style={{backgroundImage: `url(${FreshCover})` }}>
+        <section className='bg-zinc-200 bg-no-repeat bg-right bg-size-[40%]' style={{ backgroundImage: `url(${FreshCover})` }}>
             <div className='md:flex max-w-[1200px] mx-auto px-10 py-15'>
 
-                <span className='md:text-9xl text-5xl text-orange-500 font-bold transfrom md:-rotate-90 h-fit self-center'>20%</span>
+                    <span className='md:text-9xl text-6xl text-orange-500 font-bold transfrom md:-rotate-90 h-fit self-center'>20%</span>
 
                 <div className='max-w-[700px]'>
                     <h3 className='md:text-7xl text-5xl text-zinc-800 font-bold'>First Order Discount</h3>
@@ -16,7 +16,6 @@ const Discount = () => {
 
                     <Button content='Get a Discount' />
                 </div>
-
 
             </div>
         </section>

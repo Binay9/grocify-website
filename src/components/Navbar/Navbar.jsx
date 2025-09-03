@@ -28,7 +28,7 @@ const Navbar = () => {
     
 
   return (
-    <header className={`bg-white fixed top-0 right-0 left-0 ${isScrolled ? 'shadow-lg' : ''}`}>
+    <header className={`bg-white fixed top-0 right-0 left-0 ${isScrolled ? 'shadow-lg' : ''} z-50`}>
         <nav className='max-w-[1200px] mx-auto px-10 max-w-[1200px] mx-auto px-10 md:h-[14vh] h-[12vh] flex justify-between items-center'>
 
             {/* Logo */}
