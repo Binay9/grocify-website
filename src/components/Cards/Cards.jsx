@@ -6,7 +6,7 @@ const Cards = ({ image, name, price, id }) => {
 
     return (
  
-        <div className='bg-zinc-100 p-3 rounded-xl' key={id}>
+        <div className='bg-zinc-50 p-3 rounded-xl' key={id}>
 
             {/* Icon */}
             <div className='flex justify-between mb-1'>

@@ -4,6 +4,7 @@ import { RiShoppingBagFill } from "react-icons/ri";
 import { ImSearch } from "react-icons/im";
 import { FiMenu } from "react-icons/fi";
 import { TbMenu3 } from "react-icons/tb";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -33,9 +34,9 @@ const Navbar = () => {
 
             {/* Logo */}
 
-            <a href="#" className='text-3xl font-bold'>
+            <Link to={"/"} className='text-3xl font-bold'>
                 Gr<span className='text-orange-500 uppercase'>o</span>cify
-            </a>
+            </Link>
 
             {/* Desktop Menu */}
 

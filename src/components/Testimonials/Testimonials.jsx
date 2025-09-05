@@ -52,7 +52,7 @@ const Testimonials = () => {
             review.map(item => {
               return (
 
-                <SwiperSlide className='bg-zinc-100 p-5 rounded-xl'>
+                <SwiperSlide className='bg-zinc-100 p-5 rounded-xl' key={item.id}>
 
                   <div className='flex gap-5 items-center'>
 

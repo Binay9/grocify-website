@@ -27,7 +27,7 @@ const Category = () => {
                 <div className='bg-zinc-100 md:pt-5 pt-8 p-8 rounded-xl'>
                     <h3 className='text-zinc-800 text-3xl font-bold '>{card.title}</h3>
                     <p className='text-zinc-400 my-4'>{card.description}</p>
-                    <Link to="/fruits" className='bg-gradient-to-b from-orange-400 to-orange-500 text-white md:px-5 px-3 md:py-3 py-2 rounded-lg md:text-lg text-md hover:scale-105 hover:to-orange-600 transition-all duration-300 cursor-pointer'>See All</Link>
+                    <Link to={card.path} className='bg-gradient-to-b from-orange-400 to-orange-500 text-white md:px-5 px-3 md:py-3 py-2 rounded-lg md:text-lg text-md hover:scale-105 hover:to-orange-600 transition-all duration-300 cursor-pointer'>See All</Link>
                 </div>
             </div>
         )
@@ -59,20 +59,23 @@ const category = [
         id: 1,
         title: 'Fruits & Veggies',
         description: 'Fruits and vegetables are natural, minimally processed foods that come straight from the earth. They are packed with essential vitamins, minerals and fiber.',
-        image: FruitsCat
+        image: FruitsCat,
+        path: '/fruits'
     },
 
     {
         id: 2,
         title: 'Dairy',
         description: 'Fresh dairy products are foods made from milk that are minimally processed and consumed soon after production to maintain their natural taste, texture, and nutrients.',
-        image: DairyCat
+        image: DairyCat,
+        path: '/dairy'
     },
     {
         id: 3,
         title: 'Meat & Sea Food',
         description: 'Fresh meat and fish products that are recently prepared, not frozen for long, and kept in their natural state. They taste better, are full of protein and nutrients.',
-        image: MeatCat
+        image: MeatCat,
+        path: '/seafood'
     }
 
 ]
